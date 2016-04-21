@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC7F19541BD979D800F265EA /* VTDirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F19531BD979D800F265EA /* VTDirectionsViewController.swift */; };
+		FC7F19561BD979EC00F265EA /* VTDirectionsMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F19551BD979EC00F265EA /* VTDirectionsMapViewController.swift */; };
+		FC7F19581BD97EF700F265EA /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F19571BD97EF700F265EA /* AddressViewController.swift */; };
+		FC7F195A1BD97F0200F265EA /* AddressMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F19591BD97F0200F265EA /* AddressMapViewController.swift */; };
+		FC7F195C1BD981A800F265EA /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F195B1BD981A800F265EA /* DirectionsViewController.swift */; };
+		FC7F195E1BD981B000F265EA /* DirectionsMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F195D1BD981B000F265EA /* DirectionsMapViewController.swift */; };
+		FCFFF52D1BD6D32B007CB3BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFFF52C1BD6D32B007CB3BE /* AppDelegate.swift */; };
+		FCFFF5341BD6D32B007CB3BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFFF5321BD6D32B007CB3BE /* Main.storyboard */; };
+		FCFFF5361BD6D32B007CB3BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFFF5351BD6D32B007CB3BE /* Assets.xcassets */; };
+		FCFFF5391BD6D32B007CB3BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFFF5371BD6D32B007CB3BE /* LaunchScreen.storyboard */; };
+		FCFFF5441BD6D32B007CB3BE /* VTQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFFF5431BD6D32B007CB3BE /* VTQuestTests.swift */; };
+		FCFFF54F1BD6D32B007CB3BE /* VTQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFFF54E1BD6D32B007CB3BE /* VTQuestUITests.swift */; };
+		FCFFF55E1BD6D37F007CB3BE /* maps.html in Resources */ = {isa = PBXBuildFile; fileRef = FCFFF55D1BD6D37F007CB3BE /* maps.html */; };
+		FCFFF5601BD6D4A9007CB3BE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFFF55F1BD6D4A9007CB3BE /* CoreLocation.framework */; };
+		FCFFF5621BD6D871007CB3BE /* VTMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFFF5611BD6D871007CB3BE /* VTMapViewController.swift */; };
+		FCFFF5641BD6DA4E007CB3BE /* VTPlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFFF5631BD6DA4E007CB3BE /* VTPlacesTableViewController.swift */; };
+		FCFFF5661BD6DD67007CB3BE /* VTPlaceInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFFF5651BD6DD67007CB3BE /* VTPlaceInfoViewController.swift */; };
+		FCFFF5681BD6DD77007CB3BE /* VTPlaceOnMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFFF5671BD6DD77007CB3BE /* VTPlaceOnMapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCFFF5401BD6D32B007CB3BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFFF5211BD6D32B007CB3BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFFF5281BD6D32B007CB3BE;
+			remoteInfo = VTQuest;
+		};
+		FCFFF54B1BD6D32B007CB3BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFFF5211BD6D32B007CB3BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFFF5281BD6D32B007CB3BE;
+			remoteInfo = VTQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC7F19531BD979D800F265EA /* VTDirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTDirectionsViewController.swift; sourceTree = "<group>"; };
+		FC7F19551BD979EC00F265EA /* VTDirectionsMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTDirectionsMapViewController.swift; sourceTree = "<group>"; };
+		FC7F19571BD97EF700F265EA /* AddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		FC7F19591BD97F0200F265EA /* AddressMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressMapViewController.swift; sourceTree = "<group>"; };
+		FC7F195B1BD981A800F265EA /* DirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
+		FC7F195D1BD981B000F265EA /* DirectionsMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsMapViewController.swift; sourceTree = "<group>"; };
+		FCFFF5291BD6D32B007CB3BE /* VTQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFFF52C1BD6D32B007CB3BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCFFF5331BD6D32B007CB3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCFFF5351BD6D32B007CB3BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCFFF5381BD6D32B007CB3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCFFF53A1BD6D32B007CB3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFFF53F1BD6D32B007CB3BE /* VTQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VTQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFFF5431BD6D32B007CB3BE /* VTQuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTQuestTests.swift; sourceTree = "<group>"; };
+		FCFFF5451BD6D32B007CB3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFFF54A1BD6D32B007CB3BE /* VTQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VTQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFFF54E1BD6D32B007CB3BE /* VTQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTQuestUITests.swift; sourceTree = "<group>"; };
+		FCFFF5501BD6D32B007CB3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFFF55D1BD6D37F007CB3BE /* maps.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = maps.html; sourceTree = "<group>"; };
+		FCFFF55F1BD6D4A9007CB3BE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FCFFF5611BD6D871007CB3BE /* VTMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTMapViewController.swift; sourceTree = "<group>"; };
+		FCFFF5631BD6DA4E007CB3BE /* VTPlacesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTPlacesTableViewController.swift; sourceTree = "<group>"; };
+		FCFFF5651BD6DD67007CB3BE /* VTPlaceInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTPlaceInfoViewController.swift; sourceTree = "<group>"; };
+		FCFFF5671BD6DD77007CB3BE /* VTPlaceOnMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTPlaceOnMapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCFFF5261BD6D32B007CB3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFFF5601BD6D4A9007CB3BE /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFFF53C1BD6D32B007CB3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFFF5471BD6D32B007CB3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCFFF5201BD6D32B007CB3BE = {
+			isa = PBXGroup;
+			children = (
+				FCFFF55F1BD6D4A9007CB3BE /* CoreLocation.framework */,
+				FCFFF52B1BD6D32B007CB3BE /* VTQuest */,
+				FCFFF5421BD6D32B007CB3BE /* VTQuestTests */,
+				FCFFF54D1BD6D32B007CB3BE /* VTQuestUITests */,
+				FCFFF52A1BD6D32B007CB3BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCFFF52A1BD6D32B007CB3BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCFFF5291BD6D32B007CB3BE /* VTQuest.app */,
+				FCFFF53F1BD6D32B007CB3BE /* VTQuestTests.xctest */,
+				FCFFF54A1BD6D32B007CB3BE /* VTQuestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCFFF52B1BD6D32B007CB3BE /* VTQuest */ = {
+			isa = PBXGroup;
+			children = (
+				FCFFF55C1BD6D37F007CB3BE /* Google Maps JavaScript API */,
+				FCFFF52C1BD6D32B007CB3BE /* AppDelegate.swift */,
+				FCFFF5611BD6D871007CB3BE /* VTMapViewController.swift */,
+				FCFFF5631BD6DA4E007CB3BE /* VTPlacesTableViewController.swift */,
+				FCFFF5651BD6DD67007CB3BE /* VTPlaceInfoViewController.swift */,
+				FCFFF5671BD6DD77007CB3BE /* VTPlaceOnMapViewController.swift */,
+				FCFFF5321BD6D32B007CB3BE /* Main.storyboard */,
+				FCFFF5351BD6D32B007CB3BE /* Assets.xcassets */,
+				FCFFF5371BD6D32B007CB3BE /* LaunchScreen.storyboard */,
+				FCFFF53A1BD6D32B007CB3BE /* Info.plist */,
+				FC7F19531BD979D800F265EA /* VTDirectionsViewController.swift */,
+				FC7F19551BD979EC00F265EA /* VTDirectionsMapViewController.swift */,
+				FC7F19571BD97EF700F265EA /* AddressViewController.swift */,
+				FC7F19591BD97F0200F265EA /* AddressMapViewController.swift */,
+				FC7F195B1BD981A800F265EA /* DirectionsViewController.swift */,
+				FC7F195D1BD981B000F265EA /* DirectionsMapViewController.swift */,
+			);
+			path = VTQuest;
+			sourceTree = "<group>";
+		};
+		FCFFF5421BD6D32B007CB3BE /* VTQuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCFFF5431BD6D32B007CB3BE /* VTQuestTests.swift */,
+				FCFFF5451BD6D32B007CB3BE /* Info.plist */,
+			);
+			path = VTQuestTests;
+			sourceTree = "<group>";
+		};
+		FCFFF54D1BD6D32B007CB3BE /* VTQuestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCFFF54E1BD6D32B007CB3BE /* VTQuestUITests.swift */,
+				FCFFF5501BD6D32B007CB3BE /* Info.plist */,
+			);
+			path = VTQuestUITests;
+			sourceTree = "<group>";
+		};
+		FCFFF55C1BD6D37F007CB3BE /* Google Maps JavaScript API */ = {
+			isa = PBXGroup;
+			children = (
+				FCFFF55D1BD6D37F007CB3BE /* maps.html */,
+			);
+			path = "Google Maps JavaScript API";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCFFF5281BD6D32B007CB3BE /* VTQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFFF5531BD6D32B007CB3BE /* Build configuration list for PBXNativeTarget "VTQuest" */;
+			buildPhases = (
+				FCFFF5251BD6D32B007CB3BE /* Sources */,
+				FCFFF5261BD6D32B007CB3BE /* Frameworks */,
+				FCFFF5271BD6D32B007CB3BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VTQuest;
+			productName = VTQuest;
+			productReference = FCFFF5291BD6D32B007CB3BE /* VTQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCFFF53E1BD6D32B007CB3BE /* VTQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFFF5561BD6D32B007CB3BE /* Build configuration list for PBXNativeTarget "VTQuestTests" */;
+			buildPhases = (
+				FCFFF53B1BD6D32B007CB3BE /* Sources */,
+				FCFFF53C1BD6D32B007CB3BE /* Frameworks */,
+				FCFFF53D1BD6D32B007CB3BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCFFF5411BD6D32B007CB3BE /* PBXTargetDependency */,
+			);
+			name = VTQuestTests;
+			productName = VTQuestTests;
+			productReference = FCFFF53F1BD6D32B007CB3BE /* VTQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCFFF5491BD6D32B007CB3BE /* VTQuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFFF5591BD6D32B007CB3BE /* Build configuration list for PBXNativeTarget "VTQuestUITests" */;
+			buildPhases = (
+				FCFFF5461BD6D32B007CB3BE /* Sources */,
+				FCFFF5471BD6D32B007CB3BE /* Frameworks */,
+				FCFFF5481BD6D32B007CB3BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCFFF54C1BD6D32B007CB3BE /* PBXTargetDependency */,
+			);
+			name = VTQuestUITests;
+			productName = VTQuestUITests;
+			productReference = FCFFF54A1BD6D32B007CB3BE /* VTQuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCFFF5211BD6D32B007CB3BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Andrew Mogg";
+				TargetAttributes = {
+					FCFFF5281BD6D32B007CB3BE = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = G5B8CK3AQ9;
+					};
+					FCFFF53E1BD6D32B007CB3BE = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FCFFF5281BD6D32B007CB3BE;
+					};
+					FCFFF5491BD6D32B007CB3BE = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FCFFF5281BD6D32B007CB3BE;
+					};
+				};
+			};
+			buildConfigurationList = FCFFF5241BD6D32B007CB3BE /* Build configuration list for PBXProject "VTQuest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCFFF5201BD6D32B007CB3BE;
+			productRefGroup = FCFFF52A1BD6D32B007CB3BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCFFF5281BD6D32B007CB3BE /* VTQuest */,
+				FCFFF53E1BD6D32B007CB3BE /* VTQuestTests */,
+				FCFFF5491BD6D32B007CB3BE /* VTQuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCFFF5271BD6D32B007CB3BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFFF5391BD6D32B007CB3BE /* LaunchScreen.storyboard in Resources */,
+				FCFFF55E1BD6D37F007CB3BE /* maps.html in Resources */,
+				FCFFF5361BD6D32B007CB3BE /* Assets.xcassets in Resources */,
+				FCFFF5341BD6D32B007CB3BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFFF53D1BD6D32B007CB3BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFFF5481BD6D32B007CB3BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCFFF5251BD6D32B007CB3BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7F19561BD979EC00F265EA /* VTDirectionsMapViewController.swift in Sources */,
+				FCFFF5681BD6DD77007CB3BE /* VTPlaceOnMapViewController.swift in Sources */,
+				FCFFF5661BD6DD67007CB3BE /* VTPlaceInfoViewController.swift in Sources */,
+				FC7F195E1BD981B000F265EA /* DirectionsMapViewController.swift in Sources */,
+				FC7F195A1BD97F0200F265EA /* AddressMapViewController.swift in Sources */,
+				FC7F19581BD97EF700F265EA /* AddressViewController.swift in Sources */,
+				FCFFF52D1BD6D32B007CB3BE /* AppDelegate.swift in Sources */,
+				FC7F195C1BD981A800F265EA /* DirectionsViewController.swift in Sources */,
+				FCFFF5621BD6D871007CB3BE /* VTMapViewController.swift in Sources */,
+				FC7F19541BD979D800F265EA /* VTDirectionsViewController.swift in Sources */,
+				FCFFF5641BD6DA4E007CB3BE /* VTPlacesTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFFF53B1BD6D32B007CB3BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFFF5441BD6D32B007CB3BE /* VTQuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFFF5461BD6D32B007CB3BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFFF54F1BD6D32B007CB3BE /* VTQuestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCFFF5411BD6D32B007CB3BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCFFF5281BD6D32B007CB3BE /* VTQuest */;
+			targetProxy = FCFFF5401BD6D32B007CB3BE /* PBXContainerItemProxy */;
+		};
+		FCFFF54C1BD6D32B007CB3BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCFFF5281BD6D32B007CB3BE /* VTQuest */;
+			targetProxy = FCFFF54B1BD6D32B007CB3BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCFFF5321BD6D32B007CB3BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFFF5331BD6D32B007CB3BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCFFF5371BD6D32B007CB3BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFFF5381BD6D32B007CB3BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCFFF5511BD6D32B007CB3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCFFF5521BD6D32B007CB3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCFFF5541BD6D32B007CB3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = VTQuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmogg.VTQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCFFF5551BD6D32B007CB3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = VTQuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmogg.VTQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCFFF5571BD6D32B007CB3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VTQuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmogg.VTQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VTQuest.app/VTQuest";
+			};
+			name = Debug;
+		};
+		FCFFF5581BD6D32B007CB3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VTQuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmogg.VTQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VTQuest.app/VTQuest";
+			};
+			name = Release;
+		};
+		FCFFF55A1BD6D32B007CB3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VTQuestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmogg.VTQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VTQuest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FCFFF55B1BD6D32B007CB3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VTQuestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmogg.VTQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VTQuest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCFFF5241BD6D32B007CB3BE /* Build configuration list for PBXProject "VTQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFFF5511BD6D32B007CB3BE /* Debug */,
+				FCFFF5521BD6D32B007CB3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFFF5531BD6D32B007CB3BE /* Build configuration list for PBXNativeTarget "VTQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFFF5541BD6D32B007CB3BE /* Debug */,
+				FCFFF5551BD6D32B007CB3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFFF5561BD6D32B007CB3BE /* Build configuration list for PBXNativeTarget "VTQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFFF5571BD6D32B007CB3BE /* Debug */,
+				FCFFF5581BD6D32B007CB3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFFF5591BD6D32B007CB3BE /* Build configuration list for PBXNativeTarget "VTQuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFFF55A1BD6D32B007CB3BE /* Debug */,
+				FCFFF55B1BD6D32B007CB3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCFFF5211BD6D32B007CB3BE /* Project object */;
+}
